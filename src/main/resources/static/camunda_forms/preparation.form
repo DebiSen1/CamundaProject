@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "label": "Resource",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1q5hwau",
+        "columns": null
+      },
+      "id": "Field_0lrwv9s",
+      "key": "money",
+      "description": "How much money you want to bring?",
+      "defaultValue": "0",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Destination",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_11kytko",
+        "columns": null
+      },
+      "id": "Field_0e1kk03",
+      "key": "country",
+      "description": "Which country do you want to go?",
+      "defaultValue": "France",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1qgqbh6",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.12.0"
+  },
+  "schemaVersion": 9
+}
